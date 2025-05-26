@@ -8,8 +8,8 @@ app.get("/array", (req, res) => {
   res.status(200).send(array);
 });
 
-app.post("/array", (req, res) => {
-  array.push(4);
+app.post("/test", (req, res) => {
+  array.push(5);
   res.status(200).send("successfully");
 });
 
